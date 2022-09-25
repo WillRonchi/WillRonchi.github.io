@@ -3,24 +3,25 @@ let questions = [
     {
     numb: 1,
     question: "Qual o significado da sigla “CIPA” ?",
-    answer: 'Comissão Interna de Prevenção de Acidentes',
+    answer: "Comissão Interna de Prevenção de Acidentes",
     options: [
-      'Conselho Interno de Prevenção de Acidentes',
-      'Comitê Interno de Prevenção de Acidentes',
-      'Comissão Interna de Prevenção de Acidentes',
-      'Comissão Interna de Prevenção de Acabamento',
-      'Comissão Interna de Participação de Acidentes'
+      "Conselho Interno de Prevenção de Acidentes",
+      "Comitê Interno de Prevenção de Acidentes",
+      "Comissão Interna de Prevenção de Acidentes",
+      "Comissão Interna de Prevenção de Acabamento",
+      "Comissão Interna de Participação de Acidentes"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "O que significa EPI ?",
+    answer: "Equipamento de Segurança Individual",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Equipamento de Segurança Internacional",
+      "Equipamento de Segurança Irracional",
+      "Equipamento de Segurança Impessoal",
+      "Equipamento de Participação Individual",
+      "Equipamento de Segurança Individual"
     ]
   },
     {
