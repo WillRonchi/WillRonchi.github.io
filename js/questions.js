@@ -2,13 +2,14 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Qual o significado da sigla “CIPA” ?",
+    answer: 'Comissão Interna de Prevenção de Acidentes',
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      'Conselho Interno de Prevenção de Acidentes',
+      'Comitê Interno de Prevenção de Acidentes',
+      'Comissão Interna de Prevenção de Acidentes',
+      'Comissão Interna de Prevenção de Acabamento',
+      'Comissão Interna de Participação de Acidentes'
     ]
   },
     {
