@@ -30,7 +30,6 @@ continue_btn.onclick = ()=>{
     queCounter(1); //passing 1 parameter to queCounter
 }
 
-let timeValue =  15;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -45,7 +44,6 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 15;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -91,7 +89,8 @@ function showQuetions(index){
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
+    + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>'
+    + '<div class="option"><span>'+ questions[index].options[4] +'</span></div>';
     que_text.innerHTML = que_tag; //adding new span tag inside que_tag
     option_list.innerHTML = option_tag; //adding new div tag inside option_tag
 

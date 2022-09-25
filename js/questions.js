@@ -2,7 +2,7 @@
 let questions = [
     {
     numb: 1,
-    question: "Qual o significado da sigla “CIPA” ?",
+    question: "Qual o significado da sigla “CIPA”?",
     answer: "Comissão Interna de Prevenção de Acidentes",
     options: [
       "Conselho Interno de Prevenção de Acidentes",
@@ -14,7 +14,7 @@ let questions = [
   },
     {
     numb: 2,
-    question: "O que significa EPI ?",
+    question: "O que significa EPI?",
     answer: "Equipamento de Segurança Individual",
     options: [
       "Equipamento de Segurança Internacional",
@@ -26,49 +26,98 @@ let questions = [
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "A quem cabe a guarda e conservação do EPI?",
+    answer: "N.D.A",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "A CIPA",
+      "A SIPAT",
+      "Ao RH",
+      "N.D.A",
+      "O empregador"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Um acontecimento indesejado, inesperado que provoca perda é chamado de:",
+    answer: "Acidente",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Imprevisto",
+      "Incidente ",
+      "Acidente",
+      "Acontecimento",
+      "N.D.A"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Para trabalhos que podem causar irritações nos olhos, o desbaste em materiais que geram fagulhas, cavacos e outros lesões decorrentes da ação de radiações perigosas, devemos usar sempre:",
+    answer: "Óculos de segurança",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Protetor Auricular",
+      "Bota de borracha",
+      "Luvas",
+      "Óculos de segurança",
+      "Capacete"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+    {
+    numb: 6,
+    question: "A quem cabe treinar o trabalhador sobre o uso adequado do EPI?",
+    answer: "Empregador",
+    options: [
+      "Empregador",
+      "Empregado",
+      "UMA CIPA",
+      "Um SIPAT",
+      "N.D.A."
+    ]
+  },
+  {
+    numb: 7,
+    question: "O uso do cinto de segurança é obrigatório para trabalhos em altura superior a quantos metros?",
+    answer: "2 Metros",
+    options: [
+      "1 Metrô",
+      "1,5 Metros",
+      "2 Metros",
+      "2,5 Metros",
+      "3 Metros"
+    ]
+  },
+  {
+    numb: 8,
+    question: "Considera-se um ato inseguro:",
+    answer: "Limpar máquinas que não estão desligadas",
+    options: [
+      "Usar EPIs",
+      "Limpar máquinas que não estão desligadas",
+      "Respeitar como sinalizações",
+      "Atentar-se às NBRs",
+      "N.D.A."
+    ]
+  },
+  {
+    numb: 9,
+    question: "Um acontecimento indesejado, inesperado que não provoca perda é chamado de:",
+    answer: "Incidente",
+    options: [
+      "Imprevisto",
+      "Incidente",
+      "Acidente",
+      "Acontecimento",
+      "N.D.A."
+    ]
+  },
+  {
+    numb: 10,
+    question: "Qual é o prazo ideal para trocar nossos EPIs?",
+    answer: "De 6 em 6 meses",
+    options: [
+      "Uma vez por ano",
+      "De 4 em 4 meses",
+      "Não a necessidade de trocar os EPIs",
+      "De 6 em 6 meses",
+      "Até danificar"
+    ]
+  },
 ];
